@@ -1,3 +1,8 @@
-h1 {
-    color: purple;
+p {
+    text-align: center;
+    font-family: 'Bowlby One SC';
+  }
+
+#button-select {
+    display: flex;
 }
