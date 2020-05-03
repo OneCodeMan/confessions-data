@@ -1,8 +1,55 @@
+.container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 p {
     text-align: center;
-    font-family: 'Bowlby One SC';
   }
+
+div {
+    margin: 20px;
+}
+
+#info {
+    width: 80%;
+    text-align: center;
+}
+
+.text {
+    font-size: 25px;
+    min-height: 100px;
+    overflow: scroll;
+    max-height: 400px;
+    margin: auto;
+    width: 80%;
+    margin-top: 10px;
+}
 
 #button-select {
     display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    width: 80%;
 }
+
+.btn {
+    width: 130px;
+    height: 50px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, .5);
+    box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+  }

@@ -1,4 +1,25 @@
-var confessions = [
+const textColoursLight = ['272727', '2B50AA', '08415C', '55917F', '5E4C5A', '6C698D', 'CC3363', '5E565A', '724CF9', '558C8C', '82204A', '266DD3', '8C4843', '2EC4B6', '233329', '22181C', 'EF626C'];
+const textColoursDark = ['FF858D', '08415C', 'EEE5E9', 'D4D2D5', 'F7B05B', '86BAA1'];
+const animations = ['bounce', 'shake', 'flash', 'pulse', 'swing', 'wobble', 'jello', 'fadeIn', 'fadeInLeftBig',
+                    'hinge', 'rollIn', 'lightSpeedIn', 'jackInTheBox', 'tada']; 
+const fonts = ['Arial, sans-serif', 'Helvetica, sans-serif', 'Gill Sans, sans-serif', 'Times, serif', 'Times New Roman, serif',
+               'Bookman, serif', 'Impact, fantasy', 'Arnoldboecklin, fantasy', 'Blippo, fantasy', 'Parkavenue, cursive', 
+               'Comic Sans, Comic Sans MS, cursive'];
+const emojisMap = {
+    'None': '🥣',
+    'Sex': '🍆',
+    'Mental Health': '🧠',
+    'Money/Financial': '💰',
+    'Medical': '🏥',
+    'Drugs': '💊',
+    'Race/Protected Groups': '🎗️',
+    'Excretions': '💦',
+    'Academics': '📚',
+    'Death': '💀',
+    'Random': '🎲',
+}
+
+const confessions = [
     {
         "label": "None",
         "text": "Who's going to Mimosa saturday?"
